@@ -1,0 +1,38 @@
+.input {
+  border: 1px solid red;
+}
+
+/* 
+  xxx-enter 进入前的CSS样式
+  xxx-enter-active 进入动画直到完成时之前的CSS样式
+  xxx-enter-done 进入完成时的CSS样式
+  xxx-exit 退出前的CSS样式
+  xxx-exit-active 退出动画直到完成时之前的CSS样式
+  xxx-exit-done 退出完成时的CSS样式
+*/
+
+.test-enter {
+  opacity: 0;
+}
+
+.test-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+
+.test-enter-done {
+  opacity: 1;
+}
+
+.test-exit {
+  opacity: 1;
+}
+
+.test-exit-active {
+  opacity: 0;
+  transition: opacity 2000ms;
+}
+
+.test-exit-done {
+  opacity: 0;
+}
